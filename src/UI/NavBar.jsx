@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import { GitIcon, LinkedinIcon } from "../icons";
 
 
-
+import flameLogo from "/assets/FlameLogo.png";
+import sun from "/assets/sun_switch.png";
+import moon from "/assets/moon_switch.png";
 
 
 
@@ -24,7 +26,7 @@ export const NavBar = () => {
 
   return (
     <nav className="flex px-20 py-6 justify-between items-center">
-      <img className="w-16 " src="/assets/FlameLogo.png" alt="" />
+      <img className="w-16 " src={flameLogo} alt="" />
       <div className="flex gap-8 items-center">
         <button className="text-2xl font-bold font-poppins text-gray-700/90 bg-white/50 rounded-lg py-1 px-2 shadow-lg hover:scale-110 transition dark:text-white">
           EN
@@ -33,18 +35,16 @@ export const NavBar = () => {
           onClick={onDarkMode}
           className={`group w-[126px] h-16 rounded-full border-white shadow-xl flex items-center border-2 hover:scale-105 transition-all ${
             darkSwitch
-              ? "bg-gradient-to-l from-purple-950 from-40% to-orange-500 to-100%"
-              : "bg-gradient-to-r from-orange-500 from-30% to-purple-950 to-100%"
+              ? "bg-gradient-to-r from-purple-950 from-40% to-orange-500 to-100%"
+              : "bg-gradient-to-l from-orange-500 from-30% to-purple-950 to-100%"
           }`}
         >
           <img
             className={`m-1 transition-all duration-200 ease-out ${
-              darkSwitch ? "w-12 translate-x-16" : "w-14 "
+              darkSwitch ? "w-10" : "w-12 translate-x-16"
             }`}
-            src={`${
-              darkSwitch ? "/assets/moon_switch.png" : "/assets/sun_switch.png"
-            }`}
-            alt=""
+            src={`${darkSwitch ? moon : sun}`}
+            alt="switch"
           />
         </button>
       </div>
