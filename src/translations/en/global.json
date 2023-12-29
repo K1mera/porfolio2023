@@ -1,0 +1,16 @@
+{
+  "welcome": {
+    "greeting": "Hi! My name is ",
+    "greeting2": "I'm a ",
+    "name": "Leon",
+    "role1": "web developer",
+    "role2": "graphic designer",
+    "role3": "and ",
+    "description": "Insanely creative 💡, father of three beautiful cats 😺, passionate writer in my free time 📓."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle1": "Coding",
+    "subtitle2": "Design"
+  }
+}

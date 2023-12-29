@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { GitIcon, LinkedinIcon } from "../icons";
-
+import { useTranslation } from "react-i18next";
 
 import flameLogo from "/assets/FlameLogo.png";
 import sun from "/assets/sun_switch.png";
@@ -9,6 +9,9 @@ import moon from "/assets/moon_switch.png";
 
 
 export const NavBar = () => {
+
+  const { i18n } = useTranslation();
+  const [onEnglish, setonEnglish] = useState(true)
   
   const [darkSwitch, setdarkSwitch] = useState(false)
   useEffect(() => {
@@ -24,12 +27,23 @@ export const NavBar = () => {
     return setdarkSwitch(false);
   }
 
+  const changeLanguage = () => {
+    if ( onEnglish ) {
+      i18n.changeLanguage("es");
+      setonEnglish(false);
+    } else {
+      i18n.changeLanguage("en");
+      setonEnglish(true);
+    }
+    
+  };
+
   return (
-    <nav className="flex px-20 py-6 justify-between items-center">
+    <nav className="flex px-20 py-6 justify-between items-center fixed w-full">
       <img className="w-16 " src={flameLogo} alt="" />
       <div className="flex gap-8 items-center">
-        <button className="text-2xl font-bold font-poppins text-gray-700/90 bg-white/50 rounded-lg py-1 px-2 shadow-lg hover:scale-110 transition dark:text-white">
-          EN
+        <button onClick={ changeLanguage } className="text-2xl font-bold font-poppins text-gray-700/90 bg-white/50 rounded-lg py-1 px-2 shadow-lg hover:scale-110 transition dark:text-white">
+          { onEnglish ? 'EN' : 'ES'}
         </button>
         <button
           onClick={onDarkMode}

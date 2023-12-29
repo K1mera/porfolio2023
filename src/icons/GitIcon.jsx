@@ -12,7 +12,7 @@ export const GitIcon = ({ className }) => {
       <g
         id="Page-1"
         fill="current"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g
           id="Dribbble-Light-Preview"

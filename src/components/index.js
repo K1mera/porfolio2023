@@ -1,3 +1,5 @@
+export * from './DesProjects'
+export * from './DevProjects'
 export * from './Projects'
 export * from './Welcome'
 export * from './Experience'

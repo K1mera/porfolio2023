@@ -3,6 +3,7 @@ import { NavBar } from "../UI/NavBar"
 import { HomePage } from "../pages/HomePage"
 
 
+
 export const AppRouter = () => {
   return (
     <main>
