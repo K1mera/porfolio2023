@@ -6,44 +6,43 @@ import flameLogo from "/assets/FlameLogo.png";
 import sun from "/assets/sun_switch.png";
 import moon from "/assets/moon_switch.png";
 
-
-
 export const NavBar = () => {
-
   const { i18n } = useTranslation();
-  const [onEnglish, setonEnglish] = useState(true)
-  
-  const [darkSwitch, setdarkSwitch] = useState(false)
+  const [onEnglish, setonEnglish] = useState(true);
+
+  const [darkSwitch, setdarkSwitch] = useState(false);
   useEffect(() => {
     if (darkSwitch) {
-      document.documentElement.classList.add('dark')
+      document.documentElement.classList.add("dark");
     } else {
-      document.documentElement.classList.remove('dark')
+      document.documentElement.classList.remove("dark");
     }
-  }, [darkSwitch])
-  
+  }, [darkSwitch]);
+
   const onDarkMode = () => {
     if (!darkSwitch) return setdarkSwitch(true);
     return setdarkSwitch(false);
-  }
+  };
 
   const changeLanguage = () => {
-    if ( onEnglish ) {
+    if (onEnglish) {
       i18n.changeLanguage("es");
       setonEnglish(false);
     } else {
       i18n.changeLanguage("en");
       setonEnglish(true);
     }
-    
   };
 
   return (
     <nav className="flex px-20 py-6 justify-between items-center fixed w-full">
       <img className="w-16 " src={flameLogo} alt="" />
       <div className="flex gap-8 items-center">
-        <button onClick={ changeLanguage } className="text-2xl font-bold font-poppins text-gray-700/90 bg-white/50 rounded-lg py-1 px-2 shadow-lg hover:scale-110 transition dark:text-white">
-          { onEnglish ? 'EN' : 'ES'}
+        <button
+          onClick={changeLanguage}
+          className="text-2xl font-bold font-poppins text-gray-700/90 bg-white/50 rounded-lg w-12 py-1 px-2 shadow-lg hover:scale-110 transition dark:text-white"
+        >
+          {onEnglish ? "EN" : "ES"}
         </button>
         <button
           onClick={onDarkMode}
@@ -78,4 +77,4 @@ export const NavBar = () => {
       </aside>
     </nav>
   );
-}
+};

@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { NavBar } from "../UI/NavBar"
+import { NavBar, Footer } from "../UI/"
 import { HomePage } from "../pages/HomePage"
 
 
@@ -7,13 +7,14 @@ import { HomePage } from "../pages/HomePage"
 export const AppRouter = () => {
   return (
     <main>
-      <NavBar/>
+      <NavBar />
       <Routes>
         
         <Route path="/" element={ <HomePage />}>
 
         </Route>
       </Routes>
+      <Footer />
     </main>
   )
 }

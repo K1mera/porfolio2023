@@ -12,5 +12,26 @@
     "title": "Projects",
     "subtitle1": "Coding",
     "subtitle2": "Design"
+  },
+  "experience": {
+    "title": "Experience",
+    "experiences": {
+        "experience1": {
+            "title": "Web and Instructional Developer",
+            "date": "Mar/2023 - Dec/2023",
+            "description": [ "Development of interactive lessons using articulate storyline 360.", "Support development. Using React and Angular."]
+        },
+        "experience2": {
+            "title": "Bilingual Customer Service Representative",
+            "date": "Aug/2022 - Mar/2023",
+            "description": "Management of emails and ticket resolutions for a company specializing in business flights and travel. This involves establishing communication with hotels and airline providers to ensure the fulfillment of customer requirements."
+        },
+        "experience3": {
+            "title": "Freelance Graphic Designer",
+            "date": "Oct/2015 - Mar/2023",
+            "description": [ "Design of printable pieces, such as books. Comunity management, and Illustrations.", "Teaching software design, and basics of design concepts."]
+        } 
+    }
+
   }
 }
