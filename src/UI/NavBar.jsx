@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import flameLogo from "/assets/FlameLogo.png";
 import sun from "/assets/sun_switch.png";
 import moon from "/assets/moon_switch.png";
+import {Link} from "react-router-dom";
 
 export const NavBar = () => {
   const { i18n } = useTranslation();
@@ -35,9 +36,9 @@ export const NavBar = () => {
   };
 
   return (
-    <nav className="flex px-20 py-6 justify-between items-center fixed w-full">
+    <nav className="flex px-8 py-6 justify-between items-center fixed w-full lg:px-20 z-50">
       <img className="w-16 " src={flameLogo} alt="" />
-      <div className="flex gap-8 items-center">
+      <div className="flex gap-2 items-center lg:gap-8">
         <button
           onClick={changeLanguage}
           className="text-2xl font-bold font-poppins text-gray-700/90 bg-white/50 rounded-lg w-12 py-1 px-2 shadow-lg hover:scale-110 transition dark:text-white"
@@ -61,19 +62,27 @@ export const NavBar = () => {
           />
         </button>
       </div>
-      <aside className="fixed top-48 left-2 pl-20 flex flex-col gap-2 items-center ">
-        <button className="group bg-gray-800 rounded-lg p-2 shadow-lg hover:bg-white hover:scale-110 transition-transform ">
+      <aside className="fixed top-48 left-2 pl-8 flex flex-col gap-2 items-center lg:pl-20 ">
+        <Link
+          to="https://github.com/K1mera"
+          target="blank"
+          className="group bg-gray-800 rounded-lg p-2 shadow-lg hover:bg-white hover:scale-110 transition-transform "
+        >
           <GitIcon
             className={"w-7 fill-white group-hover:fill-black transition-color"}
           />
-        </button>
-        <button className="group bg-gray-800 rounded-lg p-1 shadow-lg hover:bg-white hover:scale-110 transition-transform">
+        </Link>
+        <Link
+          to="https://www.linkedin.com/in/juan-chac%C3%B3n-450629137/"
+          target="blank"
+          className="group bg-gray-800 rounded-lg p-1 shadow-lg hover:bg-white hover:scale-110 transition-transform"
+        >
           <LinkedinIcon
             className={
               "w-9 fill-white group-hover:fill-blue-500 transition-color"
             }
           />
-        </button>
+        </Link>
       </aside>
     </nav>
   );

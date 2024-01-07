@@ -13,6 +13,15 @@
     "subtitle1": "Coding",
     "subtitle2": "Design"
   },
+  "projectsDescribtions": {
+    "dev": {
+      "travelling": "Sample design of a travel agency page created with raw html and tailwind css.",
+      "gifApp": "Simple page made to bring Gifs from the Ghiphy API. Created using React and boostrap.",
+      "dogctionary": "Page allows to look for dogs stored in the database, and upload new breed on it."
+      
+    },
+    "des": {}
+  },
   "experience": {
     "title": "Experience",
     "experiences": {

@@ -13,25 +13,38 @@
     "subtitle1": "Código",
     "subtitle2": "Diseño"
   },
+  "projectsDescribtions": {
+    "dev": {
+      "travelling": "Diseño de muestra de una página de agencia de viajes creada con HTML puro y Tailwind CSS.",
+      "gifApp": "Página simple creada para mostrar gifs de la API de Giphy. Creada utilizando React y Bootstrap.",
+      "dogctionary": "Página que permite buscar perros almacenados en la base de datos y cargar nuevas razas en ella."
+    },
+    "des": {}
+  },
   "experience": {
     "title": "Experiencia",
     "experiences": {
-        "experience1": {
-            "title": "Desarrollador web e instruccional",
-            "date": "Mar/2023 - Dic/2023",
-            "description": [ "Desarrollo de lecciones interactivas usando articulate storyline 360.", "Desarrollador de apoyo. React y Angular."]
-        },
-        "experience2": {
-            "title": "Agente bilingüe de servicio al cliente",
-            "date": "Ago/2022 - Mar/2023",
-            "description": "Gestión de correos electrónicos y resolución de tickets para una empresa especializada en vuelos y viajes de negocios. Esto implica establecer comunicación con hoteles y proveedores de aerolíneas para garantizar el cumplimiento de los requisitos de los clientes."
-        },
-        "experience3": {
-            "title": "Diseñador gráfico freelancer",
-            "date": "Oct/2015 - Mar/2023",
-            "description": [ "Diseño y gestión de piezas impresas, como libros y flyers. Comunity management, y ilustración.", "Enseñar conceptos básicos del diseño, y el uso mismo de los programas."]
-        } 
+      "experience1": {
+        "title": "Desarrollador web e instruccional",
+        "date": "Mar/2023 - Dic/2023",
+        "description": [
+          "Desarrollo de lecciones interactivas usando articulate storyline 360.",
+          "Desarrollador de apoyo. React y Angular."
+        ]
+      },
+      "experience2": {
+        "title": "Agente bilingüe de servicio al cliente",
+        "date": "Ago/2022 - Mar/2023",
+        "description": "Gestión de correos electrónicos y resolución de tickets para una empresa especializada en vuelos y viajes de negocios. Esto implica establecer comunicación con hoteles y proveedores de aerolíneas para garantizar el cumplimiento de los requisitos de los clientes."
+      },
+      "experience3": {
+        "title": "Diseñador gráfico freelancer",
+        "date": "Oct/2015 - Mar/2023",
+        "description": [
+          "Diseño y gestión de piezas impresas, como libros y flyers. Comunity management, y ilustración.",
+          "Enseñar conceptos básicos del diseño, y el uso mismo de los programas."
+        ]
+      }
     }
-
   }
 }

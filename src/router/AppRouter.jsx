@@ -6,15 +6,15 @@ import { HomePage } from "../pages/HomePage"
 
 export const AppRouter = () => {
   return (
-    <main>
+    <>
       <NavBar />
       <Routes>
         
-        <Route path="/" element={ <HomePage />}>
+        <Route path="/" element={ <HomePage /> }>
 
         </Route>
       </Routes>
       <Footer />
-    </main>
+    </>
   )
 }
