@@ -69,7 +69,7 @@ export const DevProjects = () => {
       </div>
       <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-dogctionary bg-cover ">
         <Link
-          to="https://659882d91b14f060e1b8dace--eclectic-monstera-e53b46.netlify.app/"
+          to="https://65a557a50d0a5b008cf6e09e--eclectic-monstera-e53b46.netlify.app/"
           target="blank"
         >
           <section className="absolute -bottom-32 mb-2 pt-4 px-2 w-full bg-gradient-to-t from-purple-950 h-52 group-hover:-bottom-14 group-hover:translate-y-0 transition-all group-hover:from-70% cursor-pointer">
