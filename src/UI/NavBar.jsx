@@ -11,7 +11,7 @@ export const NavBar = () => {
   const { i18n } = useTranslation();
   const [onEnglish, setonEnglish] = useState(true);
 
-  const [darkSwitch, setdarkSwitch] = useState(true);
+  const [darkSwitch, setdarkSwitch] = useState(false);
   useEffect(() => {
     if (darkSwitch) {
       document.documentElement.classList.add("dark");
