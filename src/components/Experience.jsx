@@ -25,7 +25,7 @@ export const Experience = () => {
               {t("experience.experiences.experience1.date")}
             </h3>
           </div>
-          <div className="flex flex-col gap-1  w-1/3 font-light dark:text-white">
+          <div className="flex flex-col gap-1 w-1/2 font-light dark:text-white">
             <p>
               {t("experience.experiences.experience1.description.0")}
             </p>
@@ -39,7 +39,7 @@ export const Experience = () => {
             </h2>
             <h3 className="text-orange-200 ">{t("experience.experiences.experience2.date")}</h3>
           </div>
-          <div className="flex flex-col gap-1 h-full w-1/3 font-light dark:text-white">
+          <div className="flex flex-col gap-1 h-full w-1/2 font-light dark:text-white">
             <p>
               {t("experience.experiences.experience2.description")}
             </p>
@@ -50,7 +50,7 @@ export const Experience = () => {
             <h2 className="dark:text-white">{t("experience.experiences.experience3.title")}</h2>
             <h3 className="text-orange-200 ">{t("experience.experiences.experience3.date")}</h3>
           </div>
-          <div className="flex flex-col gap-1 w-1/3 font-light dark:text-white">
+          <div className="flex flex-col gap-1 w-1/2 font-light dark:text-white">
             <p>
               {t("experience.experiences.experience3.description.0")}
             </p>

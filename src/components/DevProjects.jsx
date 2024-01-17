@@ -92,6 +92,30 @@ export const DevProjects = () => {
           </section>
         </Link>
       </div>
+      <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-shopi bg-cover ">
+        <Link
+          to="https://65a557a50d0a5b008cf6e09e--eclectic-monstera-e53b46.netlify.app/"
+          target="blank"
+        >
+          <section className="absolute -bottom-32 mb-2 pt-4 px-2 w-full bg-gradient-to-t from-purple-950 h-52 group-hover:-bottom-14 group-hover:translate-y-0 transition-all group-hover:from-70% cursor-pointer">
+            <div className="flex w-full justify-between gap-1">
+              <h1 className="flex flex-col w-full items-start font-poppings font-bold text-lg text-zinc-900">
+                Shopi
+              </h1>
+              <div className="flex gap-[2px]">
+                <ReactIcon className={"w-6"} />
+                <TailwindIcon className={"w-6"} />
+                <FirebaseIcon className={"w-6"} />
+              </div>
+            </div>
+            <div>
+              <p className="font-poppins text-white font-light text-sm pt-4">
+                {t("projectsDescribtions.dev.shopi")}
+              </p>
+            </div>
+          </section>
+        </Link>
+      </div>
       {/* <div className="group rela
       tive overflow-hidden hover:scale-[103%] transition bg-white rounded-xl">
         <section className="absolute -bottom-32 mb-2 pt-4 px-2 w-full bg-gradient-to-t from-purple-950 h-52 group-hover:-bottom-2 group-hover:translate-y-0 transition-all group-hover:from-70%">

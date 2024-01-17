@@ -13,7 +13,8 @@ export default {
         dark: "url('/assets/background_dark.png')",
         gifTool: "url('/assets/gif_tool.png')",
         travelling: "url('/assets/travelling.png')",
-        dogctionary: "url('/assets/dogctionary.png')"
+        dogctionary: "url('/assets/dogctionary.png')",
+        shopi: "url('/assets/shopi.png')"
       },
     },
   },

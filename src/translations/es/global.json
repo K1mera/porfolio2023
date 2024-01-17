@@ -17,9 +17,12 @@
     "dev": {
       "travelling": "Diseño de muestra de una página de agencia de viajes creada con HTML puro y Tailwind CSS.",
       "gifApp": "Página simple creada para mostrar gifs de la API de Giphy. Creada utilizando React y Bootstrap.",
-      "dogctionary": "Página que permite buscar perros almacenados en la base de datos y cargar nuevas razas en ella."
+      "dogctionary": "Página que permite buscar perros almacenados en la base de datos y cargar nuevas razas en ella.",
+       "shopi": "E-commerce app, con funcionabilidad de usuarios. React, tailwind and Firebase."
     },
-    "des": {}
+    "des": {
+      "tempMessage": [ "Lo siento, los proyectos de diseño estarán aquí pronto 😳🙇🏼‍♂️.", "Mientrás... este", "PDF📜", "contiene algunos de mis proyectos" ]
+    }
   },
   "experience": {
     "title": "Experiencia",
