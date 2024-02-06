@@ -14,7 +14,7 @@ export const DesProjects = () => {
     >
       <h1 className="text-xl text-center font-poppins font-light dark:text-white">
         {t("projectsDescribtions.des.tempMessage.0")} <br />{" "}
-        {t("projectsDescribtions.des.tempMessage.1")}{ " " }
+        {t("projectsDescribtions.des.tempMessage.1")}{" "}
         <Link
           className="text-red-500 hover:text-purple-500"
           to="https://drive.google.com/file/d/1Wqd6eOnzNJ7XJTlUfp-F7pjtxFTQHlsd/view?usp=sharing"
@@ -23,6 +23,14 @@ export const DesProjects = () => {
           {t("projectsDescribtions.des.tempMessage.2")}
         </Link>{" "}
         {t("projectsDescribtions.des.tempMessage.3")}
+        {t("projectsDescribtions.des.tempMessage.4")}
+        <Link
+          className="text-red-500 hover:text-purple-500"
+          to="https://www.behance.net/jchlion"
+          target="blank"
+        >
+          {t("projectsDescribtions.des.tempMessage.5")}
+        </Link>.
       </h1>
     </motion.div>
   );
