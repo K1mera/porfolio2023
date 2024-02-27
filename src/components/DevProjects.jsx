@@ -25,7 +25,7 @@ export const DevProjects = () => {
       className="grid lg:grid-cols-3 grid-cols-1 grid-rows-7 w-1/2 h-full gap-3 p-8"
     >
       {/* first div */}
-      <div className="group relative bg-white rounded-xl row-span-2 overflow-hidden hover:scale-[103%] transition bg-travelling bg-cover bg-bottom ">
+      <div className="group relative bg-white rounded-xl row-span-2 overflow-hidden hover:scale-[103%] transition bg-travelling bg-cover bg-bottom shadow-lg shadow-orange-700/40">
         <Link to="https://incomparable-faun-b2c772.netlify.app" target="blank">
           <section className="absolute -bottom-32 mb-2 pt-4 px-2 w-full bg-gradient-to-t from-purple-950 h-52 group-hover:-bottom-14 group-hover:translate-y-0 transition-all group-hover:from-70%">
             <div className="flex w-full justify-between cursor-pointer">
@@ -46,7 +46,7 @@ export const DevProjects = () => {
           </section>
         </Link>
       </div>
-      <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-gifTool bg-cover ">
+      <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-gifTool bg-cover shadow-lg shadow-orange-700/40">
         <Link to="https://fabulous-llama-b051a4.netlify.app" target="blank">
           <section className="absolute -bottom-32 mb-2 pt-4 px-2 w-full bg-gradient-to-t from-purple-950 h-52 group-hover:-bottom-14 group-hover:translate-y-0 transition-all group-hover:from-70% cursor-pointer">
             <div className="flex w-full justify-between ">
@@ -67,7 +67,7 @@ export const DevProjects = () => {
           </section>
         </Link>
       </div>
-      <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-dogctionary bg-cover ">
+      <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-dogctionary bg-cover shadow-lg shadow-orange-700/40">
         <Link
           to="https://65a557a50d0a5b008cf6e09e--eclectic-monstera-e53b46.netlify.app/"
           target="blank"
@@ -92,7 +92,7 @@ export const DevProjects = () => {
           </section>
         </Link>
       </div>
-      <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-shopi bg-cover ">
+      <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-shopi bg-cover shadow-lg shadow-orange-700/40">
         <Link
           to="https://65a557a50d0a5b008cf6e09e--eclectic-monstera-e53b46.netlify.app/"
           target="blank"
@@ -116,7 +116,7 @@ export const DevProjects = () => {
           </section>
         </Link>
       </div>
-      <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-vitalfit bg-cover ">
+      <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-vitalfit bg-cover border-2 border-amber-300 shadow-lg shadow-orange-500">
         <Link to="https://vitalfit.onrender.com" target="blank">
           <section className="absolute -bottom-32 mb-2 pt-4 px-2 w-full bg-gradient-to-t from-purple-950 h-52 group-hover:-bottom-14 group-hover:-translate-y-12 transition-all group-hover:from-70% cursor-pointer">
             <div className="flex w-full justify-between gap-1">
