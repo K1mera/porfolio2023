@@ -18,7 +18,8 @@
       "travelling": "Sample design of a travel agency page created with raw html and tailwind css.",
       "gifApp": "Simple page made to bring Gifs from the Ghiphy API. Created using React and boostrap.",
       "dogctionary": "Page allows to look for dogs stored in the database, and upload new breed on it.",
-      "shopi": "E-commerce app, with user functionabillity, React, tailwind and Firebase."
+      "shopi": "E-commerce app, with user functionabillity, React, tailwind and Firebase.",
+       "vitalfit": "An e-commerce dedicated to the sale and distribution of supplements, with a back-end implemented combining Firebase and Node."
       
     },
     "des": {
