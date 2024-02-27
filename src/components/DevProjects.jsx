@@ -117,7 +117,7 @@ export const DevProjects = () => {
         </Link>
       </div>
       <div className="group relative overflow-hidden hover:scale-[103%] transition bg-white rounded-xl bg-vitalfit bg-cover ">
-        <Link to="https://vitalfit.onrender.com/home" target="blank">
+        <Link to="https://vitalfit.onrender.com" target="blank">
           <section className="absolute -bottom-32 mb-2 pt-4 px-2 w-full bg-gradient-to-t from-purple-950 h-52 group-hover:-bottom-14 group-hover:-translate-y-12 transition-all group-hover:from-70% cursor-pointer">
             <div className="flex w-full justify-between gap-1">
               <h1 className="flex flex-col w-full items-start font-poppings font-bold text-lg text-zinc-900 group-hover:text-white">
